@@ -233,7 +233,8 @@ function HTMLParser(html, handler) {
     }
 
     if (html === last) {
-      throw new Error('Parse Error: ' + html);
+      // throw new Error('Parse Error: ' + html); // 
+      break;
     }
   }
 
